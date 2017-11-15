@@ -1,0 +1,2 @@
+git config http.postBuffer 524288000 [500*1024*1024
+]
