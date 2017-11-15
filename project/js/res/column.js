@@ -1,0 +1,3 @@
+var names = ["1.神话的国度","2.文明的产生","3.文字的演变","4.我们是礼仪之邦","5.中华传统美德","6.中国符号","7.中国人的世俗生活","8.中国人的精神世界","9.中国人的宗教生活","10.古代的政治生活","11.祖先的遗产","12.做个自豪的中国人"]
+var enames = ["1shdgd","2wmdcs","3wzdyb","4wmslyzb","5zhctmd","6zgfh","7zgrdsssh","8zgrdjssj","9zgrdzjsh","10gddzzsh","11zxdyc","12zgzhdzgr"]
+var all_spell = ["1.SHENHUADEGUODU","2.WENMINGDECHANSHENG","3.WENZIDEYANBIAN","4.WOMENSHILIYIZHIBANG","5.ZHONGHUACHUANTONGMEIDE","6.ZHONGGUOFUHAO","7.ZHONGGUORENDESHISUSHENGHUO","8.ZHONGGUORENDEJINGSHENSHIJIE","9.ZHONGGUORENDEZONGJIAOSHENGHUO","10.GUDAIDEZHENGZHISHENGHUO","11.ZUXIANDEYICHAN","12.ZUOGEZIHAODEZHONGGUOREN"];

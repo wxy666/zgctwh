@@ -1,0 +1,550 @@
+﻿html{
+	height: 100%;
+}
+body{
+	min-width: 1200px;
+	height: 100%;
+	background-image:url(../images/bg1.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	behavior: url(backgroundsize.min.htc);	
+}
+.top{
+	width: 100%;
+	height: 25px;
+	background: url(../images/top_bg.png) repeat-x center top;
+}
+.content{
+	width: 100%;
+}
+.contentBox{
+	width: 1110px;
+	margin: 0 auto;
+	height: 90px;
+	position: relative;
+}
+.logo{
+	float: left;
+	width: 571px;
+	margin-top: 27px;
+}
+.back{
+	width: 100px;
+    height: 31px;
+    line-height: 31px;
+    text-align: center;
+    background: url(../images/back.png) no-repeat center;
+    margin-left: 400px;
+    display: inline-block;
+    margin-top: 46px;
+}
+.back a{
+	width: 93%;
+	height: 100%;
+	display: block;
+	color: #FFFFFF;
+	padding-left: 8px;
+}
+.videoBox{
+	width: 1106px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.box-title{
+	width: 1110px;
+	height: 57px;
+	line-height: 57px;
+	background: url(../images/topBg.png) no-repeat center;
+	position:relative;
+}
+.box-title p{
+	display: inline-block;
+	margin-left: 90px;
+	font-size: 24px;
+	color: #b7130f;
+}
+.box-title span{
+	color: #b89561;
+	margin-left: 8px;
+}
+.list{
+	float: right;
+}
+.list li{
+	padding-left: 20px;
+	margin-left: -10px;
+	margin-right: 35px;
+	cursor: pointer;
+}
+.cs {
+    position:absolute;
+    width: 100px;
+    height: 31px;
+    background: url(../images/ceshi.png) no-repeat center left;
+    cursor: pointer;
+	top: 15px;
+    left: 500px;
+}
+#correctBox{
+	background-color: rgba(0,0,0,0.68);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    display: none;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000) !important;
+	z-index: 999999;
+}
+.correctBg{
+	width: 1080px;
+    height: 540px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -540px;
+    margin-top: -270px;
+    background: url(../images/stBg_03.png) no-repeat center;
+}
+.videoBack{
+	width: 60px;
+    height: 21px;
+    line-height: 19px;
+    color: #FEFDF9;
+    background-color: #d70c00;
+    text-align: center;
+    font-size: 14px;
+    float: right;
+    margin-top: -21px;
+    padding-left: 8px;
+    cursor: pointer;
+    background: url(../images/gb.png) no-repeat center left;
+    margin-right: -8px;
+}
+
+.test{
+	width: 720px;
+	height: 284px;
+	margin: 111px auto;
+	position:relative;
+}
+.test p{
+	font-size: 18px;
+	color: #000000;
+	line-height: 26px;
+}
+.textSelect{
+	padding-top: 40px;
+	padding-left: 25px;
+	
+}
+.textSelect li{
+	box-sizing: border-box;
+	margin-bottom: 34px;
+	font-size: 16px;
+	color: #494949;
+	cursor:pointer;
+}
+.textSelect li span{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background: url(../images/radio.png) no-repeat center center;
+	margin-right: 20px;
+    margin-top: -4px;
+    vertical-align: middle;
+    cursor: pointer;
+    position: relative;
+}
+.textSelect li span .true{
+	position: absolute;
+	top: -14px;
+    left: -6px;
+	width: 38px;
+	height: 33px;
+	background: url(../images/correct.png) no-repeat center center;
+}
+.textSelect li span .false{
+	position: absolute;
+	top: -4px;
+    left: -4px;
+	width: 27px;
+	height: 27px;
+	background: url(../images/error.png) no-repeat center center;
+}
+.btn {
+	position: absolute;
+    right: 0;
+    bottom: -50px;
+}
+.btn ul li{
+	display:inline-block;
+	width:80px;;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	font-size:18px;
+	color:#ffffff;
+	background-color:#e5d1b6;
+	box-sizing:border-box;
+	margin-right:20px;
+	cursor:pointer;
+}
+.tp{
+	background: url(../images/tp.png) no-repeat center left;
+}
+
+.tpSelect{
+	background: url(../images/tpSelect.png) no-repeat center left;
+}
+.wzSelect{
+	background: url(../images/wzSelect.png) no-repeat center left;
+}
+.wz{
+	background: url(../images/wz.png) no-repeat center left;
+}
+.list li{
+	display: inline-block;
+}
+.videoList{
+	width: 1110px;
+	min-height: 600px;
+	background: url(../images/contentBg.png) no-repeat center;
+	background-size: 100% 100%;
+	behavior: url(backgroundsize.min.htc);
+	display: none;
+}
+.videoList ul{
+	padding: 15px;
+	
+}
+.videoList ul li{
+	display: inline-block;
+	width: 354px;
+	height: 148px;
+	background: #fefefb url(../images/picture_bg.png) no-repeat center;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+.videoList .pictureBox{
+	width: 155px;
+	height: 121px;
+	float: left;
+	margin: 13px 9px;
+	cursor: pointer;
+}
+.videoList .pictureBox img{
+	width: 100%;
+	height: 100%;
+}
+.videoList .titleBox{
+	float: right;
+	width: 174px;
+	height: 148px;
+}
+.videoList .titleBox h1{
+	font-size: 16px;
+    font-weight: 100;
+    line-height: 40px;
+    color: #B23333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.videoList .titleBox .p-first{
+	text-indent: 2em;
+	color: #666666;
+	line-height: 23px;
+		
+}
+.videoList  .titleBox .p-first{position: relative; line-height: 20px; height: 100px;overflow: hidden; width:162px;}
+.videoList  .titleBox  .p-first:after{content: " "; background:url(../images/chuanshuoshidai.png) no-repeat center; 
+	position: absolute; 
+	bottom: 3px; 
+	right: -21px; 
+	padding-left: 44px;
+	width:54px; 
+	height:14px; 
+	cursor:pointer;
+	display:block;
+	z-index: 9999;
+}	
+.videoList .titleBox .p-first a{
+	color: red;
+	cursor: pointer;
+}
+.temList{
+	width: 1110px;
+	min-height: 600px;
+	background: url(../images/contentBg.png) no-repeat center;
+	background-size: 100% 100%;
+	behavior: url(backgroundsize.min.htc);
+	display: none;
+}
+.temList ul{
+	padding: 5px 10px 0px 30px;
+}
+.temList ul li{
+	width: 350px;
+    height: 34px;
+    display: inline-block;
+    line-height: 34px;
+    text-align: left;
+    border-bottom: 1px solid #f1eee9;
+    position: relative;
+    cursor: pointer;
+}
+.temList ul li h1{
+	font-size: 16px;
+    font-weight: 100;
+    line-height: 34px;
+    padding-left: 20px;
+    color: #333333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.on{
+	display: block;
+}
+
+.footer{
+	margin-top: 20px;
+	width: 100%;
+	height: 98px;
+	text-align: center;
+}
+.footer p{
+	color: #99815f;
+}
+.address{
+	padding-top: 18px;
+	margin-bottom: 5px;
+}
+.center{
+	text-align:center;
+}
+.viewareacss11{
+	width:400px;
+	height:300px;
+	line-height:300px;
+	display:inline-block;
+	overflow:hidden;
+	border:1px solid #333;
+	list-style:none;
+	text-align:center;
+}
+.viewmptcss{
+	width:400px;
+	height:300px;
+	line-height:300px;
+	vertical-align:middle;
+	display:inline-block;
+}
+.second_ul,.third_ul{
+	width: 1110px;
+   	height: auto;
+    background: url(../images/contentBg.png) no-repeat center;
+    padding-top: 13px;
+    opacity: 0.9;
+    filter:Alpha(opacity=90);
+}
+.second_ul li,.third_ul li{
+	display:inline-block;
+	padding: 5px 20px 5px 38px;
+	font-size:14px;
+	color:#333333;
+	box-sizing: border-box;
+}
+.third_ul div li{
+	width:100%;
+}
+.second_ul li a.third_ul li a{
+	color:#333333;
+	display:inline-block;
+	width:100%;
+	height:100%;
+	font-size: 16px;
+}
+.second_ul li a{
+	font-weight:bold;
+	font-size:15px;
+	/*color: #CCCCCC;*/
+}
+.second_ul .current a{
+	color: #CCCCCC;
+}
+.second_ul li.active a,.third_ul li.active a{
+	color:#f16a65;
+}
+.third_ul div a.active{
+	color:#f16a65;
+}
+/*批量播放弹框CSS*/
+#plbf{
+	width: 107px;
+    height: 40px;
+    background: url(../images/bacthPlay.png) no-repeat center center;
+    position: absolute;
+    top: 10px;
+    right: 272px;
+    cursor: pointer;
+}
+#batchPlay {
+    background-color: rgba(0,0,0,0.68);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    display: none;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000) !important;
+	z-index: 9999;
+}
+.batch-bg{
+	width: 1030px;
+	height: 550px;
+	background-color: #fafafb;
+	border-radius: 8px;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -515px;
+    margin-top: -275px;
+}
+.batch-back{
+	width: 27px;
+    height: 26px;
+    float: right;
+    margin-top: 0px;
+    padding-left: 8px;
+    cursor: pointer;
+    background: url(../images/batchBack.png) no-repeat center top;
+    margin-right: -55px;
+}
+.batchVideoLeft{
+	width: 204px;
+	height: 550px;
+	background-color: #e1e1e1;
+	border-right: 1px solid #bebebe;
+	float: left;
+	border-radius: 8px 0 0 8px; 
+}
+.BatchVideoRight{
+	width: 825px;
+	height: 550px;
+	margin-left: 205px;
+}
+.batchVideoLeft .leftTop{
+	width: 100%;
+	height: 42px;
+	line-height: 42px;
+	font-size: 18px;
+	color: #FFFFFF;
+	background-color:#a57952 ;
+	border-radius: 8px 0 0 0; */
+	
+}
+.leftTop span{
+	margin-left: 42px;
+	background:  url(../images/batch-icon.png) no-repeat center left;
+	padding-left: 28px;
+}
+.leftCenter{
+	display: block;
+	width: 100%;
+	height: 32px;
+	line-height: 32px;
+	background-color: #efefef;
+	border-bottom: 1px solid #bebebe;
+}
+.leftCenter li{
+	float: left;
+	width: 50%;
+	color: #333333;
+	font-size: 14px;
+	text-align: center;
+	cursor: pointer;
+}
+.checkList{
+	height: 434px;
+	overflow-x:hidden ;
+	overflow-y: auto;
+}
+.checkList ul{
+	box-sizing: border-box;
+	height: 434px;
+	padding: 17px 18px;
+}
+.checkList ul li{
+	font-size: 15px;
+	margin-bottom: 14px;
+	color: #333333;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.checkList ul li label{
+	cursor:pointer;
+}
+.checkList ul li input{
+	margin-right: 10px;
+}
+.checkList ul .active{
+	color: #d10000;
+}
+.startPlay{
+	height: 39px;
+	line-height: 39px;
+	background-color: #efefef;
+	border-radius: 0 0 0 8px;
+}
+.startPlay span{
+	background: url(../images/batch-startPlay.png) no-repeat center left;
+	padding-left: 25px;
+	font-size: 15px;
+	margin-left: 57px;
+	cursor: pointer;
+}
+.startPlay .zt{
+	background: url(../images/zt.png) no-repeat center left;
+}
+.rightBox{
+	width: 775px;
+	height: 478px;
+	padding: 35px  21px;	
+}
+.rightBox h1{
+	width: 500px;
+	height: 24px;
+	line-height:24px;
+	font-weight: normal;
+	color: #000000;
+	font-size: 18px;
+	padding-left: 46px;
+	background: url(../images/batch-titleIcon.png) no-repeat center left;
+	margin-bottom: 20px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+#jwplayer_play{
+	width: 776px;
+	height: 436px;
+}
+.selectActive{
+	color: #d10000;
+}
+.position{
+	position: relative;
+    top: 73px;
+    left: 166px;
+    font-size: 20px;
+    font-weight: bold;
+	color:#f16a65;
+}

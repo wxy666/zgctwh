@@ -1,0 +1,170 @@
+﻿
+#colorbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    overflow: hidden;
+    background: url(../images/overlay.png) repeat 0 0;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+    display: none;
+}
+
+.cboxPhoto {
+    position: fixed;
+    width: 1003px;
+    height: 758px;
+    top: 5px;
+    left: 50%;
+    z-index:2;
+    /*    margin-top: -379px;*/
+    margin-left: -502px;
+    z-index: 99999;
+    display: none;
+}
+
+.cboxWrapper {
+    position: absolute;
+    width: 850px;
+    height: 670px;
+    top: 50%;
+    left: 50%;
+    margin-top:-335px;
+    margin-left: -437px;
+    background: url(../images/a.jpg);
+    padding: 0px 12px;
+}
+
+.cboxTitle {
+    float: left;
+    width: 850px;
+    height: 58px;
+    line-height: 58px;
+    overflow: visible;
+    background: url(../images/b.jpg) left bottom repeat-x;
+}
+
+    .cboxTitle h1 {
+        float: left;
+        width: auto;
+        overflow: hidden;
+        height: 48px;
+        line-height: 48px;
+        font-family: 'Microsoft YaHei';
+        text-align: left;
+        font-size: 24px;
+        font-weight: bold;
+        color: #3e3a39;
+        margin-top: 10px;
+        /*text-shadow: 1px 1px 1px #FFF, 2px 2px 1px #000;*/
+        /*padding-right: 10px;*/
+    }
+
+    .cboxTitle span {
+        float: left;
+        width: auto;
+        height: 20px;
+        line-height: 20px;
+        font-size: 16px;
+        margin-left: 8px;
+        display: inherit;
+        font-family: 'Times New Roman';
+        margin-top: 28px;
+    }
+
+    .cboxTitle font {
+        color: #a40000;
+    }
+
+a.cboxClose, div.cboxClose {
+    display: block;
+    float: right;
+    width: 48px;
+    height: 48px;
+    background: url(../images/c.jpg) 0 0 no-repeat;
+    top: 0px;
+    margin-right: -12px;
+}
+
+    a.cboxClose:hover {
+        background: url(../images/cSetOn.jpg) 0 0 no-repeat;
+    }
+
+
+.cboxPic {
+    float: left;
+    width: 850px;
+    height: 567px;
+    *font-size: 567px;
+    line-height: 567px;
+    margin-top: 5px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.cboxTxt {
+    float: left;
+    width: 826px;
+    background-color: #fff;
+    padding: 5px 11px;
+    height: 96px;
+    margin-top: 7px;
+    border: 1px solid #dadada;
+    line-height: 18px;
+    text-align: left;
+}
+
+a.cboxlBtn, a.cboxrBtn {
+    display: block;
+    position: absolute;
+    width: 42px;
+    height: 70px;
+    background: url(../images/d.png) 0 0 no-repeat;
+    top: 50%;
+    margin-top: -35px;
+    cursor: pointer;
+}
+
+a.cboxlBtn {
+    left: 0px;
+    background-position: 0px 0px;
+}
+
+    a.cboxlBtn:hover {
+        background-position: 0px -70px;
+    }
+
+a.cboxrBtn {
+    right: 0px;
+    background-position: -43px 0px;
+}
+
+    a.cboxrBtn:hover {
+        background-position: -43px -70px;
+    }
+
+a#aNext {
+    cursor: pointer;
+}
+
+../images#cbox../images {
+	*display:block;
+    vertical-align: middle;
+    /*display: none;*/
+}
+
+div#loading {
+    width: 850px;
+    height: 567px;
+}
+
+
+.login {
+    background: url( "szzlColorBox../images/loading.gif") center center no-repeat;
+}
+
+.error {
+    background: url( "szzlColorBox../images/error.png") center center no-repeat;
+}
